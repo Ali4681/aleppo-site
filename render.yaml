@@ -1,0 +1,6 @@
+﻿services:
+  - type: web
+    name: aleppo-voxel
+    runtime: static
+    buildCommand: echo ready
+    staticPublishPath: .
